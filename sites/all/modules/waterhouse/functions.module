@@ -1,0 +1,9 @@
+<?php
+function functions_theme() {
+  return array(
+    'uc_product_kit_products' => array(
+      'arguments' => array('product' => NULL),
+      'file' => 'functions.theme.inc',
+    ),
+  );
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="473826b4-c42b-419b-9191-a60a69fc69d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1YFjFZJjA4vUEapNyZ7q9I8QKXq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="473826b4-c42b-419b-9191-a60a69fc69d2" name="Default Changelist" comment="" />
+      <created>1582545133210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582545133210</updated>
+      <workItem from="1582545134539" duration="473000" />
+      <workItem from="1582548454445" duration="1212000" />
+      <workItem from="1582564322596" duration="630000" />
+      <workItem from="1582575695609" duration="611000" />
+      <workItem from="1582625971537" duration="9000" />
+      <workItem from="1582639187187" duration="574000" />
+      <workItem from="1582914248852" duration="62000" />
+      <workItem from="1586255056285" duration="2782000" />
+      <workItem from="1586547364486" duration="1186000" />
+      <workItem from="1586760408068" duration="24000" />
+      <workItem from="1587125052077" duration="2202000" />
+      <workItem from="1587136936289" duration="42000" />
+      <workItem from="1588718917314" duration="213000" />
+      <workItem from="1588789773079" duration="12000" />
+      <workItem from="1589359132197" duration="4267000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Deployment" timestamp="1588718952369">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1588718952369" />
+    <state x="431" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589363772872">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="431" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1589363772872" />
+    <state x="517" y="288" key="NewPhpFileDialog" timestamp="1589363755158">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="288" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1589363755158" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1586259481711">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586259481711" />
+    <state x="545" y="263" key="WebDeployment.AddServerDialog.v.1" timestamp="1582545226914">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="545" y="263" key="WebDeployment.AddServerDialog.v.1/0.0.1366.728@0.0.1366.728" timestamp="1582545226914" />
+    <state x="507" y="95" key="ftp.server.browser" timestamp="1582639732904">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="507" y="95" key="ftp.server.browser/0.0.1366.728@0.0.1366.728" timestamp="1582639732904" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1586259740164">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586259740164" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589359748985">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589359748985" />
+  </component>
+</project>
