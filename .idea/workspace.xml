@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="473826b4-c42b-419b-9191-a60a69fc69d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sites/all/themes/bootstrap/templates/page/page--node--3157.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sites/all/themes/bootstrap/templates/page/page--node--type--product-kit.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/all/modules/waterhouse/functions.module" beforeDir="false" afterPath="$PROJECT_DIR$/sites/all/modules/waterhouse/functions.module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/all/modules/waterhouse/functions.theme.inc" beforeDir="false" afterPath="$PROJECT_DIR$/sites/all/modules/waterhouse/functions.theme.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +62,24 @@
       <workItem from="1587136936289" duration="42000" />
       <workItem from="1588718917314" duration="213000" />
       <workItem from="1588789773079" duration="12000" />
-      <workItem from="1589359132197" duration="5810000" />
+      <workItem from="1589359132197" duration="11657000" />
     </task>
+    <task id="LOCAL-00001" summary="add functions module">
+      <created>1589367992282</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589367992282</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add functions module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add functions module" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Deployment" timestamp="1588718952369">
@@ -79,6 +90,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="431" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1589363772872" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1589367990921">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589367990921" />
     <state x="517" y="288" key="NewPhpFileDialog" timestamp="1589363755158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -87,6 +102,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586259481711" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589367997189">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589367997189" />
     <state x="545" y="263" key="WebDeployment.AddServerDialog.v.1" timestamp="1582545226914">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -99,9 +118,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586259740164" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589359748985">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589370134913">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589359748985" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589370134913" />
   </component>
 </project>
