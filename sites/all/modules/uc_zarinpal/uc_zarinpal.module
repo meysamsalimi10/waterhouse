@@ -3,10 +3,10 @@
 /**
  * @file Provides Zarinpal Payment Gateway for Ubercart 3.x
  * @author "Ahmad Hejazee" <mngafa@gmail.com>
- * 
+ *
  * @see http://www.hejazee.ir/
  * @see http://www.tolooco.com/
- * 
+ *
  * Copyright 2014-2015 - Tolooco.Com - All rights reserved.
  * For Licence, see README.txt and README.fa.txt
  */
@@ -43,10 +43,10 @@ function uc_zarinpal_complete_page($order_id) {
   // Although Drupal has a built-in class autoloader, It's not compatible with ioncube.
   // So we load the class manually to make sure.
   require_once dirname(__FILE__) . '/zarinpal.class.inc';
-  
+
   // Check if $order_id is valid
   $order = NULL;
-  
+
   if (is_numeric($order_id)) {
     // Load order object
     $order_id = (int) $order_id;
@@ -57,7 +57,7 @@ function uc_zarinpal_complete_page($order_id) {
     $msg = t('Order invalid.');
     drupal_set_message($msg, 'error');
     watchdog('zarinpal', 'Invalid order id passed to uc_zarinpal_complete_page()', WATCHDOG_ERROR);
-    
+
     return $msg;
   }
 
@@ -66,10 +66,10 @@ function uc_zarinpal_complete_page($order_id) {
   if (empty($merchantID)) {
     $msg = t('Zarinpal is not configured properly.');
     drupal_set_message($msg, 'error');
-    
+
     return $msg;
   }
-  
+
   // Build parameters for Zarinpal class constructor
   // Actually we only need $merchantID, $order_total for verifyTransaction() method
   $order_total = $order->order_total;
@@ -127,13 +127,13 @@ function uc_zarinpal_complete_page($order_id) {
   if (!empty($page)) {
     drupal_goto($page);
   }
-	
+
 	foreach($order->products as $product){
 		if($product->nid == 712){
 			header('Location: /node/717');
 		}
 	}
-	
+
   return '<p>' . $message . '</p>' . drupal_render($output);
 }
 
@@ -150,7 +150,7 @@ function uc_zarinpal_uc_payment_method() {
     'attributes' => array(
       'style' => 'margin-bottom: -5px; position: relative; top: 2px;',
     ),
-  ));  
+  ));
 
   $title .= t('Zarinpal Gateway');
 
@@ -219,7 +219,7 @@ function uc_zarinpal_pay_submission_form($form_state, $order) {
   // Although Drupal has a built-in class autoloader, It's not compatible with ioncube.
   // So we load the class manually to make sure.
   require_once dirname(__FILE__) . '/zarinpal.class.inc';
-  
+
   $merchantID = variable_get('uc_zarinpal_MerchantID', '');
 
   if (empty($merchantID)) {

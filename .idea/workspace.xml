@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="473826b4-c42b-419b-9191-a60a69fc69d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sites/all/themes/bootstrap/templates/page/page--node--3157.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sites/all/themes/bootstrap/templates/page/page--node--type--product-kit.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sites/all/themes/waterhouse/templates/system/page--node--3157.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/all/modules/ubercart/uc_product_kit/uc_product_kit.module" beforeDir="false" afterPath="$PROJECT_DIR$/sites/all/modules/ubercart/uc_product_kit/uc_product_kit.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/all/modules/uc_zarinpal/uc_zarinpal.module" beforeDir="false" afterPath="$PROJECT_DIR$/sites/all/modules/uc_zarinpal/uc_zarinpal.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/all/modules/waterhouse/functions.module" beforeDir="false" afterPath="$PROJECT_DIR$/sites/all/modules/waterhouse/functions.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/all/modules/waterhouse/waterhouse.module" beforeDir="false" afterPath="$PROJECT_DIR$/sites/all/modules/waterhouse/waterhouse.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/all/themes/bootstrap/templates/page/page--node--3157.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/all/themes/waterhouse/js/meysam10.js" beforeDir="false" afterPath="$PROJECT_DIR$/sites/all/themes/waterhouse/js/meysam10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/all/themes/waterhouse/less/tpl.css.less" beforeDir="false" afterPath="$PROJECT_DIR$/sites/all/themes/waterhouse/less/tpl.css.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/all/themes/waterhouse/templates/system/page.vars.php" beforeDir="false" afterPath="$PROJECT_DIR$/sites/all/themes/waterhouse/templates/system/page.vars.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="NamedScopeManager">
+    <scope name="locall" pattern="file[waterhouse]:sites/all/themes/waterhouse/less//*" />
+  </component>
   <component name="ProjectId" id="1YFjFZJjA4vUEapNyZ7q9I8QKXq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -27,16 +38,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/node_modules/lessc/node_modules/.bin/lessc.cmd" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -62,7 +77,15 @@
       <workItem from="1587136936289" duration="42000" />
       <workItem from="1588718917314" duration="213000" />
       <workItem from="1588789773079" duration="12000" />
-      <workItem from="1589359132197" duration="11657000" />
+      <workItem from="1589359132197" duration="11839000" />
+      <workItem from="1589454694419" duration="7229000" />
+      <workItem from="1589553691556" duration="2207000" />
+      <workItem from="1589572433959" duration="109000" />
+      <workItem from="1590818830881" duration="1117000" />
+      <workItem from="1591076929660" duration="10495000" />
+      <workItem from="1591089888254" duration="130000" />
+      <workItem from="1591090034356" duration="9252000" />
+      <workItem from="1591426097637" duration="11245000" />
     </task>
     <task id="LOCAL-00001" summary="add functions module">
       <created>1589367992282</created>
@@ -71,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589367992282</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="page node 3157">
+      <created>1589412863042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589412863042</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,48 +109,57 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add functions module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add functions module" />
+    <MESSAGE value="page node 3157" />
+    <option name="LAST_COMMIT_MESSAGE" value="page node 3157" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="23" key="#Deployment" timestamp="1588718952369">
+    <state x="275" y="23" key="#Deployment" timestamp="1591102413122">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="23" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1588718952369" />
+    <state x="275" y="23" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1591102413122" />
     <state x="431" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589363772872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="431" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1589363772872" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1589367990921">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1589412861527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589367990921" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589412861527" />
+    <state x="317" y="61" width="731" height="667" key="EditFileWatcherDialog" timestamp="1591094084096">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="317" y="61" width="731" height="667" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1591094084096" />
+    <state x="462" y="120" key="FileChooserDialogImpl" timestamp="1591093679161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591093679161" />
     <state x="517" y="288" key="NewPhpFileDialog" timestamp="1589363755158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="288" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1589363755158" />
-    <state x="184" y="7" key="SettingsEditor" timestamp="1586259481711">
+    <state x="184" y="7" key="SettingsEditor" timestamp="1591094085875">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586259481711" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589367997189">
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591094085875" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589412867203">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589367997189" />
-    <state x="545" y="263" key="WebDeployment.AddServerDialog.v.1" timestamp="1582545226914">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589412867203" />
+    <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1591453013920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="545" y="263" key="WebDeployment.AddServerDialog.v.1/0.0.1366.728@0.0.1366.728" timestamp="1582545226914" />
-    <state x="507" y="95" key="ftp.server.browser" timestamp="1582639732904">
+    <state x="379" y="96" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1591453013920" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1591453022748">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="507" y="95" key="ftp.server.browser/0.0.1366.728@0.0.1366.728" timestamp="1582639732904" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1586259740164">
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1591453022748" />
+    <state x="275" y="23" key="scopes" timestamp="1591093776282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586259740164" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589370134913">
+    <state x="275" y="23" key="scopes/0.0.1366.728@0.0.1366.728" timestamp="1591093776282" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591450298029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589370134913" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1591450298029" />
   </component>
 </project>

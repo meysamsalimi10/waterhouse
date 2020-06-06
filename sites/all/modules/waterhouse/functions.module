@@ -8,3 +8,33 @@ function functions_theme()
     ),
   );
 }
+function is_bought_product($nid){
+  global $user;
+  $query = db_select('uc_orders', 'o');
+  $query->join('uc_order_products', 'p', 'o.order_id = p.order_id');
+  $results = $query->fields('o', array('order_id'))
+    ->fields('p', array('qty', 'data'))
+    ->condition('o.uid', $user->uid)
+    ->condition('p.nid', $nid)
+    //->condition('o.order_status', array('completed', 'pending'), 'IN')
+    ->condition('o.order_status', array('completed', 'payment_received'), 'IN')
+    ->execute()->fetchAll();
+  return count($results) > 0 ;
+}
+
+/**
+ * Implementation of hook_uc_order();
+ */
+function functions_uc_order($op, $order, $status) {
+  switch ($op) {
+    case 'update':
+      if ($order->order_status != 'completed' && (($status == 'completed' || $status == 'payment_received') && $order->uid > 0) &&
+        (is_array($order->products) && count($order->products)) ) {
+        foreach ($order->products as $product) {
+          if ($product->data['type'] == 'video_course') {
+            drupal_goto('/node/'. $product->nid);
+          }
+        }
+      }
+  }
+}

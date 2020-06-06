@@ -1,4 +1,4 @@
-﻿var $ = jQuery;
+var $ = jQuery;
 $(document).ready(function () {
     $('.admin-menu .shop_self .view-site-sections, .admin-menu .college_self .view-site-sections, .admin-menu .media_self .view-site-sections, .admin-menu .document_self .view-site-sections').each(function () {
         $(this).children('.view-content').addClass('owl-carousel');
@@ -46,7 +46,7 @@ $(document).ready(function () {
             $('a#link').attr('href', linkHref);
         });
     });
-    
+
     $('.page-node-2170.page-gavahi').each(function () {
             $('#edit-submitted-main-information-1-1').on('input',function(e){
                 $('.tarh').html($('#edit-submitted-main-information-1-1').val());
@@ -88,5 +88,33 @@ $(document).ready(function () {
             $("#block-user-login").hide()
         ;});
     });
+
+    //product kit
+    $(".node-type-product-kit .field-name-field-body").append("<div class='parts'><h4>جلسات این دوره</h4></div>");
+    /*------------------------------------------------------------------------------------- ----------------------*/
+
+  $(".node-type-product-kit").each(function () {
+    $('.field-name-video-course').each(function() {
+      $(this).parents('.product-qty').addClass('open')
+    })
+    $('.field-name-video-course a').click(function(e) {
+      e.preventDefault()
+      let url = $(this).data('uri')
+      let video = $(this).parents('.node-product-kit').find('video')
+      video.attr('src', url)
+      $(this).parents('.node-product-kit').find('.mediaelement-download-link a').attr('href', url)
+
+      $('html, body').animate({
+        scrollTop: (video.offset().top - 0)
+      }, 1000);
+
+      let player = new MediaElementPlayer('.node-product-kit video')
+      player.pause()
+      player.setSrc(url)
+      player.media.load()
+      setTimeout(() => {player.play()}, 1000)
+    })
+    $(".collapsible .form-submit").text("خرید کل دوره");
+  })
         // End Of document
 });

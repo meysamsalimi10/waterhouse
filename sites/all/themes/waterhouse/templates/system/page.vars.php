@@ -1,3 +1,4 @@
+
 <?php
 /**
  * @file
@@ -43,9 +44,9 @@ function waterhouse_preprocess_page(&$variables) {
 	}
  	// $variables['navbar_classes'] .= ' container';
 	$variables['navbar_classes_array'][] = 'container-fluid';
-	
+
 /*--------------------------------------------------*/
-	
+
 	// Add information about the number of sidebars.
 	if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
 		$variables['content_column_class'] = ' class="col-sm-6"';
@@ -58,4 +59,3 @@ function waterhouse_preprocess_page(&$variables) {
 	  }
 
 }
- 
